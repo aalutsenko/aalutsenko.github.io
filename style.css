@@ -1,0 +1,46 @@
+body {
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  background: #f2f0e3; /* Цвет фона веб-страницы */
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 1.5em; /*Отступ сверху*/
+}
+h3 {
+  clear: both;
+}
+
+.image_with_caption {
+  float: right; /* Выравнивание по правому краю */
+  /*border: 1px solid #333; /* Параметры рамки */
+  padding: 7px; /* Поля внутри блока */
+  margin: 0px 0px 5px 5px; /* Отступы вокруг */
+  /*background: #f0f0f0; /* Цвет фона */
+}
+.image_with_caption figcaption {
+  margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}
+figcaption {
+  font-style: italic;
+  width: 250px;
+  text-align: center;
+}
+p,
+blockquote {
+  /*text-indent: 20px; /* Отступ первой строки абзаца в пикселах */
+  font-size: 18px;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  border-spacing: 1px; /* Расстояние между ячейками */
+}
